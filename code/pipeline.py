@@ -10,8 +10,8 @@ Run:
     python pipeline.py
 
 Environment variables required:
-    FLIGHT_DATA_PATH       - local path to Airline_Delay_Cause.csv (BTS)
-    AVIATIONSTACK_API_KEY  - personal access key for aviationstack.com
+    FLIGHT_DATA_PATH       - "C:\aub files\msba305\data\bts_sample.csv"
+    AVIATIONSTACK_API_KEY  - 98181b7a27bd5088f65636acbd9059fe
 Both can be set in a .env file (see README.md).
 """
 
