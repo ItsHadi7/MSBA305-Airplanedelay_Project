@@ -30,12 +30,12 @@ import matplotlib.pyplot as plt
 # ---------------------------------------------------------------------------
 
 # Load from environment; never hardcode credentials in source.
-FLIGHT_DATA_PATH = os.getenv("FLIGHT_DATA_PATH", "data/Airline_Delay_Cause.csv")
+FLIGHT_DATA_PATH = os.getenv("FLIGHT_DATA_PATH", "C:\aub files\msba305\data\bts_sample.csv")
 OPENFLIGHTS_URL = (
     "https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat"
 )
-AVIATIONSTACK_API_KEY = os.getenv("AVIATIONSTACK_API_KEY", "")
-AVIATIONSTACK_URL = "http://api.aviationstack.com/v1/flights"
+AVIATIONSTACK_API_KEY = "98181b7a27bd5088f65636acbd9059fe"
+AVIATIONSTACK_URL = f"http://api.aviationstack.com/v1/flights?access_key={AVIATIONSTACK_API_KEY}"
 
 REQUEST_TIMEOUT_SECONDS = 30
 MAX_API_RETRIES = 3
